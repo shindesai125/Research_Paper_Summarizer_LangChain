@@ -62,5 +62,21 @@ if st.button("Generate Summary"):
     st.write("### Summary:",
              result.content)
 
-
-st.footer("Developed and Deployed with Love❤️ by Sai Shinde")
+footer_html = """
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f2f6; /* Adjust background color as needed */
+    color: #333333; /* Adjust text color as needed */
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+</style>
+<div class="footer">
+    <p>Developed and Deployed with Love❤️ by Sai Shinde | &copy; 2025</p>
+</div>
+"""
