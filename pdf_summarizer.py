@@ -80,3 +80,5 @@ footer_html = """
     <p>Developed and Deployed with Love❤️ by Sai Shinde | &copy; 2025</p>
 </div>
 """
+# Display the footer using st.markdown
+st.markdown(footer_html, unsafe_allow_html=True)
