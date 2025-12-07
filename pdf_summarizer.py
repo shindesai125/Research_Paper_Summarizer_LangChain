@@ -19,7 +19,7 @@ model = ChatHuggingFace(llm=llm)
 
 st.header("Research Paper Summarizer using openai/gpt-oss-20b")
 
-paper_input = st.text_input("Select Research Paper", ['Sex Education', 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding', 'GPT-3: Language Models are Few-Shot Learners', 'Diffusion Models Beat GANs on Image Synthesis'])
+paper_input = st.selectbox("Select Research Paper", ['Sex Education', 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding', 'GPT-3: Language Models are Few-Shot Learners', 'Diffusion Models Beat GANs on Image Synthesis'])
 
 style_input = st.selectbox("Select Summary Style", ['Begginer Friendly', 'Technical', 'Code-Oriented', 'Mathematical'])
 
