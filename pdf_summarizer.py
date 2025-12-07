@@ -61,3 +61,6 @@ if st.button("Generate Summary"):
     result = model.invoke(prompt)
     st.write("### Summary:",
              result.content)
+
+
+st.footer("Developed and Deployed with Love❤️ by Sai Shinde")
